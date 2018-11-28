@@ -1,0 +1,81 @@
+.row{
+    border: 3px solid black;
+    padding: 1rem;
+}
+nav{
+    
+    background-color: hsla(70,60%,50%,1);
+    width: 100%;
+    z-index: 1;
+    margin: 0rem;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+}
+a{
+    color: black;
+    font-weight: 900;
+}
+.logo{
+    width:75px;
+    margin-right: 1rem;
+}
+.leadtitle{
+    width:100%;
+    font-family: "Blacksword";
+    src:url("fonts/Blacksword.otf");
+    font-size: 7rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+.leadtitle:hover{
+    transition: transform 90s;
+    transform: scale(2);
+}
+h2{
+    font-family: "Blacksword";
+    src:url("fonts/Blacksword.otf");
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+h3{
+    color: lightgrey;
+    text-align: center;
+    font-family: sans-serif;
+    opacity: 1;
+}
+.formheader{
+    text-align: center;
+    border-bottom: 3px solid hsla(1,0%,50%,1);
+}
+form{
+    margin: 14rem auto 1rem;
+    max-width: 500px;
+}
+.form-check-input{
+    margin-left: 1rem;
+}
+
+.imgwidth{
+    width: 100%;
+}
+.images{
+    margin-top: 18rem;
+    width:100%;
+}
+@media only screen and (max-width:650px){
+    .leadtitle{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    .images{
+        margin-top: 26rem;
+    }
+}
